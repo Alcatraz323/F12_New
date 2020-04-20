@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">F12</string>
+    <string name="main_menu_1">Settings</string>
+    <string name="main_menu_2">About</string>
+    <string name="main_menu_3">Refresh</string>
+    <string name="main_menu_4">Internal Log</string>
+
+    <string name="main_card_status_title">Status</string>
+    <string name="main_card_status_root_true">Root granted</string>
+    <string name="main_card_status_root_false">Root denied</string>
+    <string name="main_card_chrome_manager_title">Chrome manager</string>
+    <string name="main_card_chrome_manager_indicator">There are %d running chrome/webviews</string>
+    <string name="main_card_help">Help and Support</string>
+    <string name="main_card_invalid">Invalid</string>
+    <string name="main_card_float_window">Float Debugger</string>
+    <string name="main_card_float_window_alive">Service is alive</string>
+    <string name="main_card_float_window_dead">Service not alive, tap to start</string>
+
+    <string name="float_tips_title">Notice</string>
+    <string name="float_tips_no_heavy_load">Due to the phone performance, try to avoid the function that need heavy load such as debugger</string>
+    <string name="float_remove_title">Remove window?</string>
+
+    <string name="til_error_inv_param">Invalid parameter</string>
+    <string name="toast_copied">Copied</string>
+    <string name="toast_cant_overlay">Pls grant overlay permission for more operation</string>
+    <string name="toast_permission_denied">Permission denied, check root and even SeLinux</string>
+    <string name="toast_connection_refused">Conn refused, may be your chrome is not ready or the browser debugger is not enabled</string>
+    <string name="ad_pb">Yes</string>
+    <string name="ad_nb">Cancel</string>
+    <string name="ad_pb2">Yes</string>
+    <string name="ad_nb2">No</string>
+    <string name="ad_nb3">Close</string>
+    <string name="ad_nb4">Clear</string>
+    <string name="ad_processing">Processing…</string>
+    <string name="empty_view">Empty</string>
+
+    <string name="load_err_title">Load err</string>
+    <string name="load_err_msg">Pls kill this app and load with valid vpn connected</string>
+
+    <string name="tutorial_title">Tutorial</string>
+    <string name="tutorial_message_1">Go to a debuggable browser and LOAD a page, then you come back here, press the Debugger button,
+    then you will see the float window, do the thing you want there, also pls make sure the target browsers target page is showing under the float window, or you will get a blank devtools preview</string>
+    <string name="tutorial_region">Some region will need VPN to load devtools frontend</string>
+    <string name="tutorial_message_2">You may find that the right side panel is too narrow to show all debugger ui, just click the button top-left to disable the inspector preview</string>
+
+    <!--About-->
+    <string name="au_l_1">Version</string>
+    <string name="au_l_2">Developer</string>
+    <string name="au_l_2_1">AlcatrazDev,Mr_Dennis</string>
+    <string name="au_l_3">Check sourcecode</string>
+    <string name="au_l_4">Open source Licenses</string>
+    <string name="au_l_4_1">Respect to opensource</string>
+    <string name="au_osp">Opensource Projects</string>
+</resources>

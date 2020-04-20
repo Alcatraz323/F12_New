@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 一般 -->
+    <string name="app_name">F12</string>
+    <string name="main_menu_1">设置</string>
+    <string name="main_menu_2">关于</string>
+    <string name="main_menu_3">刷新</string>
+    <string name="main_menu_4">内部日志</string>
+
+    <string name="main_card_status_title">状态</string>
+    <string name="main_card_status_root_true">Root已授权</string>
+    <string name="main_card_status_root_false">Root未授权</string>
+    <string name="main_card_chrome_manager_title">正在运行的浏览器</string>
+    <string name="main_card_chrome_manager_indicator">%d个活动的Chrome/WebViews</string>
+    <string name="main_card_help">帮助与支持</string>
+    <string name="main_card_invalid">不可用</string>
+    <string name="main_card_float_window">全局调试窗口</string>
+    <string name="main_card_float_window_alive">服务正在运行,点击重新配置</string>
+    <string name="main_card_float_window_dead">服务未在运行,点此启动</string>
+
+    <string name="float_tips_title">注意</string>
+    <string name="float_tips_no_heavy_load">由于手机性能并不如电脑，请尽量避开负载较高功能，如全局事件调试器，js调试器等</string>
+    <string name="float_remove_title">移除悬浮窗?</string>
+
+    <string name="til_error_inv_param">无效参数</string>
+    <string name="toast_copied">已复制</string>
+    <string name="toast_cant_overlay">请授予悬浮窗权限，这是核心必须</string>
+    <string name="toast_permission_denied">拒绝访问，请检查root，若已root请尝试关闭SeLinux</string>
+    <string name="toast_connection_refused">连接被拒绝，可能你的浏览器未完成加载或浏览器调试未开启</string>
+    <string name="ad_pb">确定</string>
+    <string name="ad_nb">取消</string>
+    <string name="ad_pb2">是</string>
+    <string name="ad_nb2">否</string>
+    <string name="ad_nb3">关闭</string>
+    <string name="ad_nb4">清除</string>
+    <string name="ad_processing">进行中…</string>
+    <string name="empty_view">无结果</string>
+
+    <string name="load_err_title">载入失败</string>
+    <string name="load_err_msg">请杀死本app,然后使用科学的网络环境载入</string>
+
+    <string name="tutorial_title">教程(请认真读完)</string>
+    <string name="tutorial_message_1">关掉本app,前往一个"可调试"的Chrome内核浏览器，载入一个网页，完成后回到这里(注意是完成)\n
+        现在你可以选择悬浮窗模式或者Activity模式\n
+        1.Activity模式(允许输入法) 进入"正在运行的浏览器"并点击右侧箭头展开,选择你要调试的页面,等待devtools完全载入后,你可能需要切到浏览器一次以获取左侧绘制结果\n
+        2.悬浮窗(不允许输入法，但可以在浏览器上方绘制以便审查元素) 点击"全局调试窗口"会出现悬浮窗，之后打开悬浮窗进行你想要的操作\n
+    注意：1.调试面板的审查预览可能为空白，请确保你悬浮窗之下是目标浏览器的前台，且是目标的标签页，若目标标签页不在前台将会导致空白
+    2.请点击右侧箭头展开，若展开后无内容则代表该浏览器打开过页面但是关闭了，若你确信不是这种情况，请描述你的情况并带上右上角"内部日志"发给我</string>
+    <string name="tutorial_region">可能需要科学的网络环境</string>
+    <string name="tutorial_message_2">你可能觉得右侧面板太窄，显示不全，你可以点击调试面板左上角如上图所示按钮，关闭审查预览，右侧面板将扩散至全屏，注，可以手动缩放,需要右键时可以长按试试，
+    但是Source面板请不要对左侧列表元素长按，会导致未知错误</string>
+
+    <!--关于-->
+    <string name="au_l_1">版本</string>
+    <string name="au_l_2">开发者</string>
+    <string name="au_l_2_1">AlcatrazDev,Mr_Dennis</string>
+    <string name="au_l_3">查看源码</string>
+    <string name="au_l_4">开放源代码许可</string>
+    <string name="au_l_4_1">向开源致敬</string>
+    <string name="au_osp">开源相关</string>
+</resources>

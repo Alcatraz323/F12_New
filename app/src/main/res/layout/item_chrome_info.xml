@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_chrome_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="start">
+
+
+        <ImageView
+            android:id="@+id/item_chrome_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/item_chrome_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_chrome_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#E3E3E3" />
+
+            <TextView
+                android:id="@+id/item_chrome_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ABABAB" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/item_chrome_expand"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:tint="@color/base_gray_tint" />
+
+    </RelativeLayout>
+
+    <io.alcatraz.f12.extended.NoScrollListView
+        android:id="@+id/item_chrome_pages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</LinearLayout>
